@@ -1,2 +1,2 @@
-console.log(challenge.toUpperCase())
+challenge.toUpperCase();
 console.log(challenge)
