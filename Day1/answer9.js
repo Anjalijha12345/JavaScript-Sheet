@@ -1,1 +1,1 @@
-let firstName,lastName,isMarried,country,age = "Anjali", "Kumari", True, "India",21;
+let firstName,lastName,isMarried,country,age = "Anjali", "kumari", True, "India",21;
