@@ -1,5 +1,5 @@
 let firstName="Anjali";
-let lastName="Kumari";
+let lastName="kumari";
 let isMarried=True;
 let country="India";
 let age=21;
