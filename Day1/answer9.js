@@ -1,0 +1,1 @@
+let firstName,lastName,isMarried,country,age="Anjali","jha",True,"India" , 21;
