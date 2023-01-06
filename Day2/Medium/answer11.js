@@ -1,0 +1,5 @@
+console.log('n1\t1\t1\t1\t1')
+console.log('\n2\t1\t2\t4\t8')
+console.log('\n3\t1\t3\t9\t27')
+console.log('\n4\t1\t4\t16\t64')
+console.log('\n5\t1\t5\t25\t125')
