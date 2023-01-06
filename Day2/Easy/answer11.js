@@ -1,2 +1,2 @@
-let string='facebook,Google,Microsoft,Apple,IBM,Oracle,Amazon'
+let str='facebook,Google,Microsoft,Apple,IBM,Oracle,Amazon';
 console.log(string.split(","))
