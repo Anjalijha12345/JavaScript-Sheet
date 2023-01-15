@@ -1,12 +1,14 @@
-let month=prompt("Enter a month:").toLowerCase();
+let month=prompt("Enter the month").toLowerCase();
+let year=parseInt(prompt("Enter a year:"));
+let isLeapYear=(year%400==0 && year%100!=0)||(year%4==0);
 let daysCount;
 switch(month){
-    case"january":
+    case"January":
     days=31;
     break;
 
     case"February":
-    days=28;
+    days=29;
     break;
 
     case"March":
@@ -21,11 +23,11 @@ switch(month){
     days=31;
     break;
 
-    case"june":
+    case"June":
     days=30;
     break;
 
-    case"july":
+    case"July":
     days=31;
     break;
 
@@ -37,7 +39,7 @@ switch(month){
     days=30;
     break;
 
-    case"october":
+    case"October":
     days=31;
     break;
 
@@ -49,7 +51,7 @@ switch(month){
     days=31;
     break;
 
-
     default:
-        console.log(month,"has",daysCount,"days:");
+        console.log(month,"has",daysCount,"year");
+
 }

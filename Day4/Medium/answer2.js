@@ -25,5 +25,7 @@ switch(month)
     case"August":
     season="Summer";
     break;
-}
+
+default:
 console.log("Season is:",season);
+}
