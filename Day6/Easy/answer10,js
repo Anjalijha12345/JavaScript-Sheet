@@ -1,0 +1,10 @@
+// Taking input from the user
+
+const number=Math.floor(prompt("Enter a positive number"));
+let sum=0;
+for(let i=1;i<=number;i++)
+{
+    sum+=i;
+}
+
+console.log("The sum of all numbers:",sum);
