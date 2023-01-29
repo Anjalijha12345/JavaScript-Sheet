@@ -1,11 +1,9 @@
-let alphabets='abcdefghijklmnopqrstuvwxyz';
-let arr=[];
+let alphabets='abcdefghijklmnopqrstuvwxyz0123456789';
+let id=" "
 for(let i=0;i<6;i++)
 {
-    if(i%2==0)
-    arr.push(i);
-    else 
-    arr.push(alphabets[Math.floor(Math.random()*25)])
+    
+    id = alphabets.charAt(Math.floor(Math.random()*alphabets.length));
     
 }
-console.log(arr.join(''));
+console.log(id);
