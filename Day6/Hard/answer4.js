@@ -192,10 +192,14 @@ const countries = [
     'Yemen',
     'Zambia',
     'Zimbabwe'
-  ]
-
-  let countriesCopy=[];
-  for(const i=0;i<countries.length;i++)
+]
+ let  landCountries=[]
+  for(let i=0;i<countries.length;i++)
   {
-    countriesCopy.push(country);
+    if(countries[i].includes('land')) {
+        landCountries.push(countries[i]);
+    }
+
   }
+
+  console.log(landCountries);

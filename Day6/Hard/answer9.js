@@ -194,8 +194,10 @@ const countries = [
     'Zimbabwe'
   ]
 
-  let countriesCopy=[];
-  for(const i=0;i<countries.length;i++)
-  {
-    countriesCopy.push(country);
-  }
+  let reversedCountries=countries.reverse();
+  let arr=[];
+  for(let i=0;i<countries.length;i++){
+  arr.push(countries.toUppercase());
+}
+
+console.log(arr);

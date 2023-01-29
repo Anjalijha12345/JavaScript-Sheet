@@ -194,8 +194,13 @@ const countries = [
     'Zimbabwe'
   ]
 
-  let countriesCopy=[];
-  for(const i=0;i<countries.length;i++)
+  let maxlength=0;
+  let index=0;
+  for(let i=0;i<countries.length;i++)
   {
-    countriesCopy.push(country);
+    if(countries[i].length>maxlength){
+        maxlength=countries[i].length;
+        index=i;
+    }
   }
+  console.log(countries[index]);
